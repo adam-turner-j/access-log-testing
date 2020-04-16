@@ -26,7 +26,7 @@ node("matviews") {
             -e source_region=${params.source_region} \
             -e dest_region=${params.dest_region}")  
         {
-            sh "logstash"
+            sh "logstash -f /usr/share/logstash/pipeline/logstash.conf"
         }
     }
 }
