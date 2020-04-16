@@ -18,7 +18,7 @@ node("matviews") {
     stage('Test') {
         sh "docker build . -t logstashcustom:latest"
 
-        docker.image('elastic/logstash:7.6.2').inside(
+        docker.image('logstashcustom').inside(
             "--entrypoint '' \
             -e source_bucket=${params.source_bucket} \
             -e dest_bucket=${params.dest_bucket} \
