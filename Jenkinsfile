@@ -3,7 +3,7 @@ properties([
      string(name: 'source_bucket', defaultValue: '', description: ''),
      string(name: 'dest_bucket', defaultValue: '', description: ''),
      string(name: 'prefix', defaultValue: '', description: ''),
-     string(name: 'source_region', defaultValue: 'us-gov-west-1', description: '')
+     string(name: 'source_region', defaultValue: 'us-gov-west-1', description: ''),
      string(name: 'dest_region', defaultValue: 'us-gov-west-1', description: '')
   ])
 ])
