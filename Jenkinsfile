@@ -6,7 +6,7 @@ properties([
     string(name: 'source_region', defaultValue: 'us-gov-west-1', description: ''),
     string(name: 'dest_region', defaultValue: 'us-gov-west-1', description: ''),
     string(name: 'source_endpoint', defaultValue: 'http://s3-us-gov-west-1.amazonaws.com', description: ''),
-    string(name: 'dest_endpoint', defaultValue: 'http://s3-us-gov-west-1.amazonaws.com', description: ''),
+    string(name: 'dest_endpoint', defaultValue: 'http://s3-us-gov-west-1.amazonaws.com', description: '')
   ])
 ])
 
